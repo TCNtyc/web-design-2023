@@ -2,10 +2,10 @@
 
 该网页所有文本内容均取自**萌娘百科**。
 
-![](E:\VScode\LightPage-main\1.png)
+![](1.png)
 
-![](E:\VScode\LightPage-main\2.png)
+![](2.png)
 
-![](E:\VScode\LightPage-main\3.png)
+![](3.png)
 
-![](E:\VScode\LightPage-main\4.png)
+![](4.png)
