@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    font-family: MiSans, sans-serif;
+
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #ff386e;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0000001a;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px #00000080;
+}
+
+::selection {
+    background:pink;
+    color: #fff
+}
+
+.bg {
+    background: linear-gradient(45deg, #ffffff99, #ffffffcc), 
+    url("https://img1.imgtp.com/2023/05/30/x9uLgAHq.jpg") no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    top: 0;
+}
+
+/* Index box */
+
+.main-box {
+    background-color: #ffffff66;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 100px #b0b0b0;
+    margin: 20% auto 20% auto;
+    width: 65%;
+}
+
+.box-left {
+    border-right: 3px ridge;
+    border-right-color:#000;
+    text-align: center;
+    padding: 25px 7% 10%
+}
+
+.box-left img {
+    border-radius: 25%;
+    width: 100%;
+    box-shadow: 0 0 10px #aaa;
+    cursor: wait;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+}
+
+.box-left img:hover {
+    transform: rotate(360deg);
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.box-left h1 {
+    font-weight: 100;
+}
+
+
+.box-content {
+    margin: 2.4% 0 -2% -2%;
+    border-left: 2px solid;
+    border-top: 3px solid;
+    width: fit-content;
+    ;
+}
+
+.box-content p {
+    padding: 0;
+    margin: 10px;
+}
+
+.flexbox {
+    display:flex;
+}
+
+.box-item {
+    padding: 5px 10px;
+    border: 1px solid;
+    margin: 10px 0 0 10px;
+    display: inline-block;
+    
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+}
+
+.box-item:hover {
+    padding: 6px 13px;
+    box-shadow: 0 0 10px #afafaf;
+}
+
+/* Nav */
+.nav-bar {
+    margin: 0 0 0 -2%;
+    padding-left: 0;
+    max-width: 100%;
+    display: flex;
+}
+
+.nav-item {
+    list-style-type: none;
+    width: 100%;
+    padding: 1% 4% 1% 4%;
+    display: inline-grid;
+    text-align: center;
+}
+
+.nav-active {
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    font-weight: 500;
+}
+
+/* Phone */
+/* @media (max-width: 768px) {
+    .container {
+        padding: 0 !important;
+    }
+
+    .bg {
+        background: linear-gradient(45deg, #ffffff99, #ffffffcc), url("https://api.imlazy.ink/img-phone") no-repeat;
+        background-size: cover;
+    }
+
+    .main-box {
+        width: 80%;
+    }
+
+    .box-left {
+        border: 0;
+    }
+
+    .box-content {
+        border-top: 0;
+        border-left: 0;
+        margin: 0;
+        width: 88%;
+    }
+
+    .nav-bar {
+        margin: 0;
+    }
+
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+
+    .nav-active {
+        border-bottom: 0;
+        border-top: 1px solid;
+    }
+
+    .box-item a {
+        display: block;
+    }
+
+    #blogの {
+        width: 100%;
+        text-align: center;
+        position: unset;
+    }
+
+    #blogの .box-item {
+        margin: 10px;
+    }
+} */
+
+/* Dark Mode*/
+/* @media (prefers-color-scheme: dark) {
+    body {
+        color: #dadada
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #ffffff1a;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px #ffffff80;
+    }
+
+    ::selection {
+        background: #fff;
+        color: #000
+    }
+
+    .bg {
+        background: linear-gradient(45deg, #00000099, #000000cc), url("https://api.imlazy.ink/img") no-repeat;
+        background-size: cover;
+    }
+
+    .main-box {
+        background-color: #00000066;
+        box-shadow: 0 0 20px #00000054;
+    }
+
+    @media (max-width: 768px) {
+        .bg {
+            background: linear-gradient(45deg, #00000099, #000000cc), url("https://api.imlazy.ink/img-phone") no-repeat;
+            background-size: cover;
+        }
+        
+    }
+} */

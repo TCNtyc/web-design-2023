@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>结城明日奈 - 网页设计课设</title>
+	<link id="favicon" rel="icon" href="./image/2014100318234030277.jpg">
+	<link rel="stylesheet" href="./css/home.css">
+	<link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/5.1.3/css/bootstrap-grid.min.css"
+		type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="bg"></div>
+	<div class="container">
+		<div class="main-box">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="box-left">
+						<img src="./image/108298651_p0_master1200.jpg" alt="Avatar" title="我...我绝对会再次和你相遇的">
+						<h1 style="font-family: '微软雅黑', Courier, monospace;">结城明日奈</h1>
+					</div>
+
+				</div>
+				<div class="col-md-9">
+					<div class="box-right">
+						<ul class="nav-bar">
+							<li class="nav-item nav-active" id="home">
+								<a href="javascript:void(0);" onclick="goHome()">主页</a>
+							</li>
+							<li class="nav-item" id="blog">
+								<a href="javascript:void(0);" onclick="goBlog()">角色歌</a>
+							</li>
+							<li class="nav-item" id="projects">
+								<a href="javascript:void(0);" onclick="goProjects()">经历</a>
+							</li>
+							<li class="nav-item">
+								<a href="./appearance.html" target="_self">图集</a>
+							</li>
+							<li class="nav-item">
+								<a href="./setting.html" target="_self">人物设定</a>
+							</li>
+						</ul>
+						<div class="box-content" id="homeの">
+							<p>简介: <span id="hi"></span></p>
+							<p>性别: 女</p>
+							<p>年龄: 永远的十八岁。</p>
+							<p>生日: 2007年9月30日</p>
+							<p>武器: 闪烁之光</p>
+
+							<p style="text-indent: 1em;">
+								当黑白之剑交叉时，那一刻就许下要永远保护你，彼此守护着对方。 为了你我可以献出我的全部，包括生命，没有你的世界我也活不下去，如果你死了我也会自杀，这是不能不让人钦佩的爱情。
+								虽然是虚拟世界，但是心意却不是假的，想要和你在一起的想法一刻都没有改变，回到现实世界我第一想见到的人就是桐人，再一次喜欢你，和你真正的交往，真正的结婚。
+							</p>
+						</div>
+
+						<div class="box-content" id="blogの">
+							<div class="box-item">
+								<a href="https://mzh.moegirl.org.cn/My_Independent_Destiny"
+								target="_blank">My Independent Destiny （动画1期BD1特典）</a>
+							</div>
+							<div class="box-item">
+								<a href="https://mzh.moegirl.org.cn/White_flower_garden"
+								 target="_blank">white flower garden （专辑「ソードアート・オンライン ソングコレクション」新曲）</a>
+							</div>
+							<div class="box-item">
+								<a href="https://mzh.moegirl.org.cn/Resolution(%E6%88%B7%E6%9D%BE%E9%81%A5)#" 
+								target="_blank">Resolution （动画3期OP3）</a>
+							</div>
+							<div class="box-item">
+								<a href="https://mzh.moegirl.org.cn/Sing_All_Overtures"
+								target="_blank">Sing All Overtures （动画1期BD9特典，与桐人、莉法、结衣、西莉卡、莉兹贝特合唱）</a>
+							</div>
+							<div class="box-item">
+								<a href="https://mzh.moegirl.org.cn/%E6%A2%A6%E4%B8%96%E7%95%8C(%E6%88%B7%E6%9D%BE%E9%81%A5)#" 
+								target="_blank">ユメセカイ（动画1期ED1） </a>
+							</div>
+							<div class="box-item"><a href="https://mzh.moegirl.org.cn/Courage" 
+								target="_blank">courage（动画2期OP2）</a>
+							</div>
+						</div>
+
+
+
+						<div class="box-content" id="projectsの">
+							<div class="flexbox">
+								<div class="box-item"><a href="./experience/reality.html" target="_self">现实世界</a></div>
+								<div class="box-item"><a href="./experience/SAO.html" target="_self">艾恩葛朗特</a></div>
+								<div class="box-item"><a href="./experience/ALO.html" target="_self">妖精之舞</a>
+								</div>
+							</div>
+
+							<div class="flexbox">
+								<div class="box-item"><a href="./experience/GGO.html" target="_self">幽灵子弹</a></div>
+								<div class="box-item"><a href="./experience/新生ALO.html" target="_self">新生妖精之舞</a>
+								</div>
+								<div class="box-item"><a href="./experience/UM.html" target="_self">Underworld</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.min.js"
+		type="application/javascript"></script>
+	<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/bootstrap/5.1.3/js/bootstrap.min.js"
+		type="application/javascript"></script>
+	<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js"
+		type="application/javascript"></script>
+	<script>
+		$("#blogの").hide();
+		$("#projectsの").hide();
+	</script>
+	<script src="./js/home.js" type="application/javascript"></script>
+</body>
+
+</html>
